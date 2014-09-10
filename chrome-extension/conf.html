@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Analytics</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="instructions">
+            <h2>How to setup this extension</h2>
+            <ol>
+                <li>Log in to your Google Analytics account</li>
+                <li>Look at the URL, it should be something like <br /><code>https://www.google.com/analytics/web/?#home/a12345678w12345678p12345678/</code></li>
+                <li>Copy the last portion of the URL, in the example it's <code>a12345678w12345678p12345678</code></li>
+                <li>Paste it in the form below</li>
+            </ol>
+        </div>
+    	<div id="configure">
+	    	<form name="codeInput" action="">
+			<input type="TEXT" id="codeField" name="inputCode" />
+            <label for="codeField">Code</label>
+			<input type="button" id="sendButton" name="sendCode" value="Send">
+		</form>
+		</div>
+  		<script src="conf.js"></script>
+    </body>
+</html>

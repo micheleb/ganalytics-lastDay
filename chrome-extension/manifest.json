@@ -1,0 +1,22 @@
+{
+	"name": "Google Analytics",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "A link to Google Analytics that sets yesterday+today as default date range",
+	"icons":{
+		"128":"128-analytics.png"
+	},
+  	"options_page": "conf.html",
+  	"background": { "scripts": ["conf.js", "background.js"]},
+	"app": {
+		"launch": { 
+			"local_path": "main.html"
+		}
+	},
+	"web_accessible_resources": [
+		"jquery.min.js", "shared.js"
+	],
+	"permissions": [
+		"storage"
+	]
+}
